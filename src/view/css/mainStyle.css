@@ -123,6 +123,7 @@ header {
 	top: 0;
 	left: 0;
 	width: 100%;
+	z-index: 9999;
 }
 
 nav {
@@ -144,21 +145,6 @@ nav {
 .link-text:active {
 	color: var(--p2-color);
 }
-/* nav a,
-footer a {
-	text-decoration: none;
-	color: var(--p4-color);
-	transition: 0.3s;
-}
-
-nav a:hover,
-footer a:hover {
-	color: var(--p3-color);
-}
-nav a:active,
-footer a:active {
-	color: var(--p2-color);
-} */
 
 main {
 	flex-grow: 2;
