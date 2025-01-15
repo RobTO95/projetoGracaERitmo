@@ -1,0 +1,28 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	/* Colors */
+	--p1-color: #362c28;
+	--p2-color: #b1353d;
+	--p3-color: #cbae7d;
+	--p4-color: #fdf4c9;
+
+	--b1-color: #64483c;
+	--b2-color: #9d5f45;
+	--b3-color: #eba88b;
+	--b4-color: #fffced;
+
+	--sucess-color: #32ec45;
+	--alert-color: #f0dd35;
+	--error-color: #e43838;
+	--notification-color: #3431cf;
+
+	--black-color: #0000;
+	--white-color: #ffff;
+
+	/* typography */
+}
