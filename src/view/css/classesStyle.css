@@ -1,0 +1,52 @@
+/* Turmas regulares */
+#classes {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: var(--spacing-xxlarge) 0;
+	gap: var(--spacing-large);
+	background-color: var(--b4-color);
+	color: var(--p2-color);
+}
+
+#classes-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.class {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 20px;
+	width: 300px;
+	height: 300px;
+	border-radius: 10px;
+	overflow: hidden;
+	box-shadow: var(--elev-1);
+	transition: 0.3s ease;
+	background-color: var(--white-color);
+	border-radius: 10px;
+}
+.class img {
+	width: 100%;
+}
+
+.class > div {
+	position: absolute;
+	color: var(--b4-color);
+	transform: scaleY(0);
+	transition: 0.3s;
+	padding: 25px;
+	background-color: var(--p2-color);
+}
+
+.class:hover > div {
+	transform: scaleY(1);
+}
+
+.class:hover {
+	transform: scale(1.1);
+}

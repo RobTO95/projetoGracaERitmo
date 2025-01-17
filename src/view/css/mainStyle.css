@@ -64,12 +64,18 @@ body {
 	font-size: 30px;
 	line-height: 39px;
 }
+.h3 {
+	font-family: "Nunito", sans-serif;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 30px;
+}
 
 .body {
 	font-family: "Open Sans", sans-serif;
 	font-weight: normal;
-	font-size: 24px;
-	line-height: 33px;
+	font-size: 16px;
+	line-height: 20px;
 }
 
 .button {
@@ -197,52 +203,3 @@ footer > p {
 	background-color: var(--p1-color);
 	color: var(--p4-color);
 }
-
-/* Social icons */
-/* Container dos ícones sociais */
-#social-icons {
-	position: fixed; /* Fixa na lateral da tela */
-	top: 50%; /* Centraliza verticalmente */
-	right: 10px; /* Ajuste a distância da borda direita */
-	transform: translateY(-50%); /* Ajuste para centralização precisa */
-	z-index: 1000; /* Garante que fique acima de outros elementos */
-}
-
-/* Lista de ícones */
-#social-icons ul {
-	list-style: none; /* Remove marcadores da lista */
-	margin: 0;
-	padding: 0;
-}
-
-/* Itens da lista */
-#social-icons li {
-	margin: var(--spacing-medium) 0; /* Espaçamento entre os ícones */
-	background: none;
-	margin: var(--spacing-large) 0;
-}
-
-/* Links dos ícones */
-#social-icons a {
-	display: flex;
-	width: 40px;
-	padding: var(--spacing-tiny);
-	height: auto;
-	overflow: hidden; /* Garante que o ícone respeite os limites do círculo */
-	transition: 0.3s; /* Efeitos de hover */
-	background: none;
-	align-items: center;
-	justify-content: center;
-	border-radius: var(--spacing-small);
-}
-
-#social-icons a:hover {
-	transform: scale(1.2); /* Aumenta o ícone no hover */
-}
-
-/* Imagens dos ícones */
-#social-icons img {
-	object-fit: cover; /* Garante que a imagem se ajuste sem distorção */
-}
-
-/* Fim social incons */
